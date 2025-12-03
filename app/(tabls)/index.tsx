@@ -22,7 +22,7 @@ const Index = () => {
     data: movies,
     loading: moviesLoading,
     error: moviesError,
-  } = useFetch(() => fetchMovies({ query: "" }));
+  } = useFetch(() => fetchMovies({ query: "iron man" }));
 
   return (
     <View className="flex-1 bg-primary">
